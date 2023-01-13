@@ -1,0 +1,154 @@
+body {
+  margin: 0px;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid black;
+  padding: 18px;
+  background-color: #ffc016;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: medium;
+  margin-right: -108px;
+  margin-left: -106px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav p {
+  margin-right: 22px;
+}
+#buttonuno {
+  border-radius: 104px;
+  padding: 14px;
+  color: white;
+  border: 1px solid black;
+  background: black;
+  width: 117px;
+  height: 46px;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: medium;
+  cursor: pointer;
+}
+#text {
+  margin-left: 70px;
+  width: 100%;
+}
+#stay {
+  display: flex;
+  justify-content: space-between;
+  font-family: Spectral, serif;
+  background-color: #ffc016;
+  border-bottom: 1px solid black;
+}
+h1 {
+  font-size: xxx-large;
+  margin-block-end: 0;
+  font-weight: 400;
+}
+
+#subtitle {
+  font-size: medium;
+  line-height: 1;
+  margin-top: 1px;
+  margin-bottom: 25px;
+}
+
+#button2 {
+  border-radius: 74px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  padding: 3px;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+#classifica {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.number {
+  width: 314px;
+  text-align: initial;
+}
+#first3 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-bottom: 35px;
+}
+#last3 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+#trending {
+  margin-top: 39px;
+  font-size: small;
+  font-weight: bold;
+  margin-bottom: 34px;
+  margin-left: 76px;
+}
+#imgtrending {
+  float: left;
+  margin-left: 25px;
+  margin-top: -8px;
+}
+main {
+  font-family: roboto, sans-serif;
+  width: 60%;
+  margin-left: 57px;
+}
+.num {
+  font-size: x-large;
+  color: lightgrey;
+  font-weight: bolder;
+  position: relative;
+  top: -12px;
+  right: -2px;
+}
+#one {
+  border-radius: 59px;
+  transform: scale(0.7);
+  float: left;
+}
+#two {
+  transform: scale(0.7);
+  float: left;
+}
+#three {
+  border-radius: 9px;
+  transform: scale(0.7);
+  float: left;
+}
+#four {
+  border-radius: 9px;
+  transform: scale(0.7);
+  float: left;
+}
+#five {
+  border-radius: 9px;
+  transform: scale(0.7);
+  float: left;
+}
+#six {
+  border-radius: 9px;
+  transform: scale(0.7);
+  float: left;
+}
+main p {
+  margin-left: 12px;
+}
+main img {
+  margin-top: 6px;
+}

@@ -21,15 +21,17 @@
     <title>Medium</title>
   </head>
   <body>
-    <header>
-      <img src="./assets/imgs/svg/logo.svg" alt="" />
-      <nav>
-        <p>Our Story</p>
-        <p>Membership</p>
-        <p>Write</p>
-        <p>Sign In</p>
-        <button id="buttonuno">Get Started</button>
-      </nav>
+    <header id="navbar">
+      <div>
+        <img src="./assets/imgs/svg/logo.svg" alt="" />
+        <nav>
+          <p>Our Story</p>
+          <p>Membership</p>
+          <p>Write</p>
+          <p>Sign In</p>
+          <button class="button" id="buttonuno">Get Started</button>
+        </nav>
+      </div>
     </header>
     <div id="stay">
       <div id="text">
@@ -9247,48 +9249,289 @@
         </svg>
       </div>
     </div>
-    <main><img id="imgtrending"src="./assets/imgs/svg/trending.svg" alt="">
-      <p id="trending"> 
-    TRENDING ON MEDIUM</p>
-      <div id="classifica">
-        <div id="first3">
+    <main>
+      <div class="divdelmain">
+        <img id="imgtrending" src="./assets/imgs/svg/trending.svg" alt="" />
+        <p id="trending">TRENDING ON MEDIUM</p>
+        <div id="classifica">
+          <div id="first3">
             <p class="num">01</p>
-      <div class="number"> <img id="one"src="./assets/imgs/image01.jpeg" alt="">
-       <p>Tom Cooper</p> 
-       <p>  Ukraine War, 23 October 2022</p>
-        <p class="data">Oct 23·5 min read</p>
-        </div > <p class="num">02</p>
-      <div class="number"> <img id="two"src="./assets/imgs/image02.png" alt=""> <p>
-        Arthur Hayes in Entrepreneur's Handbook </p>
-       <p> Comeback</p>
-       <p class="data"> Oct 26·24 min read</p>
-        </div > <p class="num">03</p>
-      <div class="number"> <img id="three"src="./assets/imgs/image03.jpeg" alt="">
-        <p> Tom Cooper </p>
-        How I Learned to Love My Breasts Even Though One Is A Horcrux For Voldemort <br>
-        <p class="data"> Oct 26·2 min read</p>
-        </div ></div>
-      <div id="last3"> <p class="num">04</p>
-      <div class="number"> <img id="four"src="./assets/imgs/image04.png" alt=""> <p>
-        Frank Mastropolo in The Riffk 
-        <p>The Night Paul McCartney Donned a Disguise at Fillmore East </p><p class="data">
-        Oct 22·3 min read</p>
-        </div > <p class="num">05</p>
-        <div class="number"> <img id="five"src="./assets/imgs/image05.jpeg" alt=""> <p>
-            Frank Andrade in Towards Data Science <p>
-            5 Python Projects to Automate Your Life: <br> From Beginner to Advanced </p> <p class="data">
-            Oct 13·6 min read</p> </div>
-            <p class="num">06</p> <div class="number">
-                
-                <img id="six" src="./assets/imgs/image06.png" alt=""> <p>
-Wesley Smits in JavaScript in Plain English </p>
-<p>
-How To Make Visual Studio Code Look Amazing </p><p class="data" >
-    Oct 20·7 min read </p></div>
-</div>
+            <div class="number">
+              <img id="one" src="./assets/imgs/image01.jpeg" alt="" />
+              <h6>Tom Cooper</h6>
+              <h5>Ukraine War, 23 October 2022</h5>
+              <p id="par" class="data">Oct 23·5 min read</p>
+            </div>
+            <p class="num">02</p>
+            <div class="number">
+              <img id="two" src="./assets/imgs/image02.png" alt="" />
+              <h6>
+                Arthur Hayes
+                <div>in</div>
+                Entrepreneur's Handbook
+              </h6>
+              <h5>Comeback</h5>
+              <p id="par" class="data">Oct 26·24 min read</p>
+            </div>
+            <p class="num">03</p>
+            <div class="number">
+              <img id="three" src="./assets/imgs/image03.jpeg" alt="" />
+              <h6>
+                Erin A Ross
+                <div>in</div>
+                Slackjaw
+              </h6>
+              <h5>
+                How I Learned to Love My Breasts Even Though One Is A Horcrux
+                For Voldemort
+              </h5>
+              <p id="only" class="data">Oct 26·2 min read</p>
+            </div>
+          </div>
+          <div id="last3">
+            <p class="num">04</p>
+            <div class="number">
+              <img id="four" src="./assets/imgs/image04.png" alt="" />
+              <h6>
+                Frank Mastropolo
+                <div>in</div>
+                The Riffk
+              </h6>
 
-                       
-        </main>
-        
+              <h5>
+                The Night Paul McCartney Donned a Disguise at Fillmore East
+              </h5>
+              <p class="data">
+                Oct 22·3 min read
+                <img src="./assets/imgs/svg/star.svg" alt="" />
+              </p>
+            </div>
+            <p class="num">05</p>
+            <div class="number">
+              <img id="five" src="./assets/imgs/image05.jpeg" alt="" />
+              <h6>
+                Frank Andrade
+                <div>in</div>
+                Towards Data Science
+              </h6>
+              <h5>
+                5 Python Projects to Automate Your Life: From Beginner to
+                Advanced
+              </h5>
+              <p class="data">
+                Oct 13·6 min read<img src="./assets/imgs/svg/star.svg" alt="" />
+              </p>
+            </div>
+            <p class="num">06</p>
+            <div class="number">
+              <img id="six" src="./assets/imgs/image06.png" alt="" />
+              <h6>
+                Wesley Smits
+                <div>in</div>
+                JavaScript in Plain English
+              </h6>
+              <h5>How To Make Visual Studio Code Look Amazing</h5>
+              <p class="data">
+                Oct 20·7 min read<img src="./assets/imgs/svg/star.svg" alt="" />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <aside>
+      <div class="divdellaside">
+        <div class="divdiv">
+          <div>
+            <h6>
+              <img id="rob" src="./assets/imgs/image07.jpeg" alt="" /> Robert
+              Roy Britt
+            </h6>
+
+            <h5>How Old is Old?</h5>
+            <p>
+              What we consider “old” changes dramatically with age, and our
+              perspectives can be predictive of how well we age
+            </p>
+            <p class="data">
+              Oct 27 · 5 min read · Aging
+              <img src="./assets/imgs/svg/star.svg" alt="" /><img
+                id="b1"
+                class="book"
+                src="./assets/imgs/svg/bookmark.svg"
+                alt=""
+              />
+            </p>
+          </div>
+          <div>
+            <h6>
+              <img id="Taru" src="./assets/imgs/image09.jpeg" alt="" /> Taru
+              Anniina Liikanen
+            </h6>
+            <h5>Taylor Swift Allowed to Speak About Fat?</h5>
+            <p>Do you speak about your trauma if you don't look traumatized?</p>
+            <p class="data">
+              Oct 24 · 6 min read · Health<img
+                src="./assets/imgs/svg/star.svg"
+                alt=""
+              /><img
+                class="book"
+                id="b2"
+                src="./assets/imgs/svg/bookmark.svg"
+                alt=""
+              />
+            </p>
+          </div>
+          <div>
+            <h6>
+              <img src="./assets/imgs/image11.jpeg" alt="" /> David Rodenas, Ph.
+              D.
+            </h6>
+            <h5>Don’t Screw Up, You Will Be Found Guilty</h5>
+            <p>
+              Software Engineer, yours is the right to produce high-quality work
+              at all times, also the liability.
+            </p>
+            <p class="data">
+              Oct 15 · 5 min read · Software Engineering<img
+                src="./assets/imgs/svg/star.svg"
+                alt=""
+              /><img id="b3" src="./assets/imgs/svg/bookmark.svg" alt="" />
+            </p>
+          </div>
+          <div>
+            <h6>
+              <img src="./assets/imgs/image13.png" alt="" /> Microsoft Design
+            </h6>
+            <h5>Leave No Trace</h5>
+            <p>
+              How product designers can break from the status quo and help our
+              planet
+            </p>
+            <p class="data">
+              Oct 25 · 11 min read · Sustainability<img
+                src="./assets/imgs/svg/star.svg"
+                alt=""
+              /><img id="b4" src="./assets/imgs/svg/bookmark.svg" alt="" />
+            </p>
+          </div>
+          <div>
+            <h6>
+              <img id="scott" src="./assets/imgs/image15.jpeg" alt="" /> Scott
+              H. Young
+            </h6>
+            <h5>Variability, Not Repetition, is the Key to Mastery</h5>
+            <p>
+              Bruce Lee is reported to have said, “I fear not the man who has
+              practiced 10,000 kicks once, but the man who has practiced one
+              kick 10,000...
+            </p>
+            <p class="data">
+              Oct 26 · 7 min read · Health<img
+                src="./assets/imgs/svg/star.svg"
+                alt=""
+              /><img id="b5" src="./assets/imgs/svg/bookmark.svg" alt="" />
+            </p>
+          </div>
+          <div>
+            <h6>
+              <img id="paul" src="./assets/imgs/image17.png" alt="" /> Paul A.
+              DeStefanoin Human Parts
+            </h6>
+            <h5>What I Overheard as an Escape Room Actor</h5>
+            <p>
+              Lock a group of people in a room and you’ll witness some
+              surprising confessions
+            </p>
+            <p class="data">
+              Jan 18, 2020 · 6 min read · Experiences<img
+                src="./assets/imgs/svg/star.svg"
+                alt=""
+              /><img id="b6" src="./assets/imgs/svg/bookmark.svg" alt="" />
+            </p>
+          </div>
+          <div>
+            <h6>
+              <img id="kim" src="./assets/imgs/image19.jpeg" alt="" /> Kim Scott
+            </h6>
+            <h5>
+              6 Steps for Setting Measurable Goals to Avoid “Productivity
+              Paranoia”
+            </h5>
+            <p>
+              With more people working in remote and hybrid environments than
+              ever before, company, team and individual goals must be explicit
+              and…
+            </p>
+            <p class="data">
+              Oct 24 · 6 min read · Health<img
+                src="./assets/imgs/svg/star.svg"
+                alt=""
+              /><img id="b7" src="./assets/imgs/svg/bookmark.svg" alt="" />
+            </p>
+          </div>
+        </div>
+        <div class="articolidue">
+          <div>
+            <img
+              id="bamb"
+              class="part"
+              src="./assets/imgs/image08.jpeg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img class="part" src="./assets/imgs/image10.jpeg" alt="" />
+          </div>
+          <div>
+            <img class="part" src="./assets/imgs/image12.png" alt="" />
+          </div>
+          <div>
+            <img
+              id="lst2"
+              class="part"
+              src="./assets/imgs/image14.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              id="lst1"
+              class="part"
+              src="./assets/imgs/image16.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              id="lst"
+              class="part"
+              src="./assets/imgs/image18.jpeg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img id="lst" class="part" src="./assets/imgs/image20.jpg" alt="" />
+          </div>
+        </div>
+        <div class="articolitre">
+          <h4>DISCOVER MORE INFO OF WHAT MATTERS TO YOU</h4>
+          <div id="span">
+            <span>Programming</span> <span>DataScience</span>
+            <span>Technology</span> <span>Self Improvement</span>
+            <span>Writing</span> <span>Relationships</span>
+            <span> Machine Learning</span> <span>Productivity</span>
+            <span>Politics</span>
+          </div>
+          <div id="spandue">
+            <span>Help</span> <span>Status</span> <span>Writers</span>
+            <span>Blog</span> <span>Careers</span> <span>Privacy</span>
+            <span> Terms</span> <span>About</span>
+            <span>Knowable</span>
+          </div>
+        </div>
+      </div>
+    </aside>
   </body>
+  <script src="./assets/js/script.js"></script>
 </html>
